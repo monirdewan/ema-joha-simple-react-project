@@ -2,7 +2,8 @@
   width: 300px;
   height: 510px;
   border-radius: 8px;
-  border: 2px solid lightgray;
+  border: 2px solid #95A0A7;
+  position: relative;
 }
 
 .products img {
@@ -12,10 +13,32 @@
   border-radius: 8px;
 }
 
+.product-content {
+  margin-left: 15px;
+  line-height: 10px;
+  padding-top: 0;
+}
+
 .product-name {
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 25px;
   letter-spacing: 0.0015em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.products p {
+  margin-top: 5px;
+}
+
+.products button {
+  background-color: #FFE0B3;
+  width: 100%;
+  border: 1px solid #95A0A7;
+  border-radius: 0px 0px 8px 8px;
+  position: absolute;
+  bottom: 0;
 }
